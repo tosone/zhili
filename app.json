@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/share/share",
+    "pages/add/add",
+    "pages/me/me",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "职历",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的背书",
+        "iconPath": "images/myinfo.png",
+        "selectedIconPath": "images/myinfo_selected.png"
+      },
+      {
+        "pagePath": "pages/share/share",
+        "text": "我要分享",
+        "iconPath": "images/share.png",
+        "selectedIconPath": "images/share_selected.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "images/share.png",
+        "selectedIconPath": "images/share_selected.png"
+      }
+    ]
+  }
+}

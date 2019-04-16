@@ -1,0 +1,36 @@
+<view class="page">
+  <view class="page__bd">
+    <wux-search-bar clear maxlength="8" placeholder="搜索" />
+  </view>
+  <view class='search-tag-wrap'>
+    <span class="search-tag">旅游</span>
+    <span class="search-tag">咨询</span>
+    <span class="search-tag">建筑</span>
+    <span class="search-tag">软件</span>
+  </view>
+  <movable>
+    <view wx:for="{{ histories }}" wx:key="_id" wx:for-index="idx" class="info {{ selected['a'] == 'selected' ? 'selected' : '' }}" bindlongpress='longPress' data-id="a">
+      <view class="info-header">
+        <text class='info-header-title'>{{ item.title }}</text>
+        <text class='info-header-date'>{{ item.start.show }} - {{ item.end.show }}</text>
+      </view>
+      <view class='info-people-view'>
+        <text class='info-people-tip'>参与人员：</text>
+        <text class='info-people' wx:for="{{ histories[idx].users }}" wx:key="_id">{{ item.name + ' ' }}</text>
+      </view>
+      <view class='info-address-view'>
+        <text class='info-address-tip'>地点：</text>
+        <text class='info-address'>{{ item.address }}</text>
+      </view>
+      <view class='info-content-view'>
+        <text class='info-content-tip'>项目描述：</text>
+        <text class='info-content'>{{ item.content }}</text>
+      </view>
+      <view class='info-content-view'>
+        <text class='info-content-tip'>职责描述：</text>
+        <text class='info-content'>{{ item.content }}</text>
+      </view>
+    </view>
+  </movable>
+  <!-- <button type="primary" size="mini" open-type="getUserInfo" bindgetuserinfo="getuserinfo">登陆</button> -->
+</view>

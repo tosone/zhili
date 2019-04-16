@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "wux-search-bar": "../../wux/search-bar/index",
+    "movable": "../../components/movable/movable"
+  }
+}

@@ -1,0 +1,8 @@
+AppName: zhili
+
+WeChat:
+  AppID: wxa7e37e6854699813
+  Secret: e4c49f915b2e2880dcf76556b07191c0
+
+ServerPort: 3000
+Debug: true

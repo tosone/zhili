@@ -1,0 +1,67 @@
+.search-tag-wrap {
+  margin-top: 7rpx;
+  margin-right: 10rpx;
+  margin-left: 10rpx;
+}
+
+.search-tag {
+  font-size: 12px;
+  color: rgb(255, 255, 255);
+  margin: 8rpx 8rpx;
+  background-color: rgba(54, 54, 54, 0.575);
+  border-radius: 6rpx;
+  padding: 3rpx 5rpx;
+}
+
+.info {
+  border-radius: 6rpx;
+  border: solid 1rpx rgb(211, 211, 211);
+  padding: 10rpx 14rpx;
+  margin: 10rpx;
+}
+
+.info-header {
+  line-height: 1;
+  margin-bottom: 15rpx;
+}
+
+.info-header-title {
+  font-weight: 500;
+  font-size: 28rpx;
+}
+
+.info-header-date {
+  color: grey;
+  float: right;
+  font-size: 22rpx;
+  vertical-align: center;
+  line-height: 40rpx;
+}
+
+.info-people, .info-address {
+  font-size: 22rpx;
+  color: grey;
+}
+
+.info-people-tip, .info-address-tip {
+  font-size: 22rpx;
+  color: rgb(110, 110, 110);
+}
+
+.info-content-view, .info-people-view, .info-address-view {
+  line-height: 1.2;
+}
+
+.info-content-tip {
+  font-weight: 500;
+}
+
+.info-content, .info-content-tip {
+  color: rgb(82, 82, 82);
+  font-size: 24rpx;
+}
+
+.selected {
+  background-color: rgb(69, 190, 130);
+  border: solid 1rpx rgb(69, 190, 130);
+}
